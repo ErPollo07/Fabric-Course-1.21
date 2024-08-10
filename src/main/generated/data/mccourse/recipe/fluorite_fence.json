@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "mccourse:fluorite_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "SCS",
+    "SCS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mccourse:fluorite_fence"
+  }
+}

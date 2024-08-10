@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "mccourse:fluorite_block"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mccourse:fluorite_slab"
+  }
+}

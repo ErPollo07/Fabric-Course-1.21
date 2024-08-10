@@ -1,7 +1,10 @@
 package me.youngnico.mccourse;
 
+import me.youngnico.mccourse.block.ModBlocks;
+import me.youngnico.mccourse.item.ModItemGroups;
+import me.youngnico.mccourse.item.ModItems;
+import me.youngnico.mccourse.util.FuelRegister;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,12 @@ public class MCCourseMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
+		ModItems.registerModItems();
+
+		ModBlocks.registerModBlocks();
+
+		FuelRegister.regiser(ModItems.STARLIGHT_ASHES, 10);
 	}
 }

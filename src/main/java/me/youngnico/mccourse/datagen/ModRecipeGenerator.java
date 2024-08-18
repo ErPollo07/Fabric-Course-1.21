@@ -85,13 +85,5 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.FLUORITE_BLOCK), conditionsFromItem(ModBlocks.FLUORITE_BLOCK))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.FLUORITE_FENCE)
-                .pattern("   ")
-                .pattern("SCS")
-                .pattern("SCS")
-                .input('S', Items.STICK)
-                .input('C', ModBlocks.FLUORITE_BLOCK)
-                .criterion(hasItem(ModBlocks.FLUORITE_BLOCK), conditionsFromItem(ModBlocks.FLUORITE_BLOCK))
-                .offerTo(exporter);
     }
 }

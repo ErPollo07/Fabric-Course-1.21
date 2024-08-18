@@ -1,6 +1,7 @@
 package me.youngnico.mccourse.block;
 
 import me.youngnico.mccourse.MCCourseMod;
+import me.youngnico.mccourse.block.custom.FluoriteLampBlock;
 import me.youngnico.mccourse.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -57,10 +58,8 @@ public class ModBlocks {
     public static final Block FLUORITE_FENCE = registerBlock("fluorite_fence",
             new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
-
     public static final Block FLUORITE_FENCE_GATE = registerBlock("fluorite_fence_gate",
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(2f).requiresTool()));
-
 
     public static final Block FLUORITE_WALL = registerBlock("fluorite_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
@@ -70,6 +69,13 @@ public class ModBlocks {
 
     public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+
+    public static final Block FLUORITE_LAMP = registerBlock("fluorite_lamp",
+            new FluoriteLampBlock(AbstractBlock.Settings.create()
+                    .strength(2f).requiresTool()
+                    .luminance(state -> state.get(FluoriteLampBlock.CLICKED) ? 15 : 0)));
+
+
 
 
     private static Block registerBlock(String name, Block block) {

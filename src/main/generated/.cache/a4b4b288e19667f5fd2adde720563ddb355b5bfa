@@ -1,5 +1,6 @@
-// 1.21	2024-08-08T12:30:29.2260821	MC Course Mod/Recipes
+// 1.21	2024-08-18T16:44:47.6566736	MC Course Mod/Recipes
 f64937b3c091d7a669f1b75925a2aa45ec181b7e data\mccourse\advancement\recipes\misc\fluorite_slab_recipe2.json
+dff3d0b42e35a89a3c647f0035582f5a1ab15efe data\mccourse\advancement\recipes\misc\fluorite_fence.json
 971fc867024f837fb7cd17bf15e569b65888aad3 data\mccourse\recipe\fluorite_from_blasting_raw_fluorite.json
 b082a293a3f38b7fef8df2da18027ad524a6386c data\mccourse\advancement\recipes\misc\fluorite_from_blasting_fluorite_end_ore.json
 db04106c86c58b7052a7a53066e8e0cbc4cbce85 data\mccourse\advancement\recipes\building_blocks\fluorite.json
@@ -32,4 +33,5 @@ b37363f5153079472aff3bc4e76002fd0783fa4e data\mccourse\recipe\fluorite_from_blas
 a57716fadea841d09d14b350369ca0b61074f177 data\mccourse\recipe\raw_fluorite.json
 24631eef44e67ff096021e7396118a05247785d1 data\mccourse\recipe\fluorite_from_smelting_fluorite_end_ore.json
 53701c6fcbe64c39e7cb137a4ae767cc444a3b4d data\mccourse\recipe\fluorite_stairs.json
+108c4505660be00efb3a44ded7f7ed6c6c8a9ae1 data\mccourse\recipe\fluorite_fence.json
 4b89c77f0475d793b886d37628a3c44ee9435efd data\mccourse\advancement\recipes\misc\fluorite_from_blasting_raw_fluorite.json

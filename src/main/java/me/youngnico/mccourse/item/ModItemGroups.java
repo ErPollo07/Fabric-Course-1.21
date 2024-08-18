@@ -20,9 +20,25 @@ public class ModItemGroups {
                         entries.add(ModItems.FLUORITE);
                         entries.add(ModItems.RAW_FLUORITE);
 
+                        // Tools
+                        entries.add(ModItems.FLUORITE_SWORD);
+                        entries.add(ModItems.FLUORITE_PICKAXE);
+                        entries.add(ModItems.FLUORITE_SHOVEL);
+                        entries.add(ModItems.FLUORITE_AXE);
+                        entries.add(ModItems.FLUORITE_HOE);
+                        entries.add(ModItems.FLUORITE_PAXEL);
+                        entries.add(ModItems.FLUORITE_HAMMER);
+
+                        // Armors
+                        entries.add(ModItems.FLUORITE_HELMET);
+                        entries.add(ModItems.FLUORITE_CHESTPLATE);
+                        entries.add(ModItems.FLUORITE_LEGGINGS);
+                        entries.add(ModItems.FLUORITE_BOOTS);
+
                         // Custom
                         entries.add(ModItems.CHAINSAW);
                         entries.add(ModItems.TELEPORT_STICK);
+                        entries.add(ModItems.SHOOTER_ITEM);
 
                         // Food
                         entries.add(ModItems.STRAWBERRY);
@@ -38,6 +54,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.FLUORITE_BLOCK)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.FLUORITE_BLOCK);
+
                         entries.add(ModBlocks.FLUORITE_STAIRS);
                         entries.add(ModBlocks.FLUORITE_SLAB);
                         entries.add(ModBlocks.FLUORITE_BUTTON);
@@ -54,6 +71,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_END_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_LAMP);
 
                     }).build());
 
